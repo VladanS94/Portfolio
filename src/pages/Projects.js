@@ -149,7 +149,7 @@ const Projects = () => {
               showcases how a complex streaming service can be built using
               modern web technologies.
             </p>
-            <Button href="https://github.com/VladanS94/Movie-app" />
+            <Button href="https://movie-app-chi-six-85.vercel.app/login" />
           </div>
         </div>
 
