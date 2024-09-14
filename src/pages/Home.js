@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import image from "../assets/vladan.png";
+import imagepng from "../assets/vladan-image.png";
 
 const Home = () => {
   const [name] = useState("Vladan Stojic");
@@ -51,7 +52,7 @@ const Home = () => {
   return (
     <div
       id="home"
-      className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-2 pt-5 px-4 fade-in"
+      className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-2 pt-[75px] px-4 fade-in"
     >
       <div className="left-side  flex justify-center pt-14">
         <div className="flex flex-col text-center ">
@@ -69,10 +70,10 @@ const Home = () => {
       </div>
       <div className="right-side  flex justify-center">
         <img
-          src={image}
+          src={imagepng}
           alt="..."
-          className="h-[75%] drop-shadow-[0_10px_15px_black] [clip-path:polygon(50%_0%,_100%_0,_100%_35%,_100%_70%,_80%_90%,_50%_100%,_20%_90%,_0%_70%,_0%_35%,_0_0)]
-          transform transition duration-300 hover:scale-105 hover:drop-shadow-[0_10px_15px_red]
+          className="h-full drop-shadow-[0_10px_15px_black] [clip-path:polygon(50%_0%,_100%_0,_100%_35%,_100%_70%,_80%_90%,_50%_100%,_20%_90%,_0%_70%,_0%_35%,_0_0)]
+          transform transition duration-300 hover:scale-105 hover:drop-shadow-[0_10px_15px_purple]
           "
         />
       </div>

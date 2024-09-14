@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 function Navbar() {
   return (
     <div>
-      <ul className="fixed w-[100%] z-10 flex justify-center text-xl md:text-2xl leading-snug font-manrope font-extrabold">
+      <ul className="fixed w-[100%] z-10 flex justify-center text-xl md:text-2xl leading-snug font-manrope font-extrabold bg-black opacity-75">
         <li className="m-3 transform transition duration-300 hover:scale-110 hover:[text-shadow:_0_2px_4px_red]">
           <Link
             to="home"
